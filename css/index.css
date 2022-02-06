@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+   background-color:whitesmoke;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+  display: block;
+justify-content: space-evenly;
+  color: brown;
+}
+h2{
+    font-weight: bold;
+}
+
+#logo{
+    height: 2cm;
+    width: 2cm;
+}
+
+    
+
+.mission{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.mission1 .mission3, .mission3{
+    padding: 20px;
+}
+button{
+    background-color: violet;
+    height: 50px;
+    margin-left: 500px;
+}
