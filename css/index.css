@@ -11,8 +11,15 @@
 }
 .navbar a{
   display: block;
-justify-content: space-evenly;
+justify-content: space-around;
   color: brown;
+  font-weight: bolder;
+padding: 20px;
+
+
+}
+.have{
+    font-weight: bold;
 }
 h2{
     font-weight: bold;
@@ -29,13 +36,48 @@ h2{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    height: 400px;
+    background-image: url(/images/schlback.jpg);
+    background-size: cover;
+    
 }
-.mission1 .mission3, .mission3{
+.mission1, .mission2, .mission3{
     padding: 20px;
+    font-weight: bold;
+    color: black;
+    background-color:rgba(128, 128, 128, 0.4);
 }
-button{
-    background-color: violet;
+
+
+
+#quiz{
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+} 
+#fomu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.question1{
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 30px;
+    border: none;
+    border-radius: 25px;
+
+
+}
+#submit{
+    background-color: green;
     height: 50px;
-    margin-left: 500px;
+    margin-left: 600px;
+    color: whitesmoke;
 }
+    
