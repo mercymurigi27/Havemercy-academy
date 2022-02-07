@@ -10,14 +10,16 @@ it the grades the performance from highest to the lowest.
 
  supports current IOS,
 
- #### the user logs  into the system via their credentials and uses the alerts that pops to follow the instuctions on how to take the questions
+ #### The user logs  into the system via their credentials and uses the alerts that pops to follow the instuctions on how to take the questions
 
 # LANGUAGES USED
 Java Script,
 
-markdown,
+Markdown,
 
 HTML,
 
 ## COPYRIGHT AND LICENCING
+#### This system is copyrighted by the governing laws of kenya.
+#### It has been licenced under innovation laws and any critic or modification is welcomed as long as the changes are not pushed on the master.
 
