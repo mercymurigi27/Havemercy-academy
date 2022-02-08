@@ -7,11 +7,12 @@
     <title>havemercy-academy</title>
     <link rel="stylesheet" href="/css/index.css">
 
-    <script src="js/script.js"></script>
+   
 
 </head>
 <body>
-    <section class="strat">
+
+    
  <div class="head">
     <div class="navbar">
         <a href="go to home page">Home</a>
@@ -47,101 +48,100 @@
 
 </div>
 <div class="but">
-    <BUtton>TAKE TEST</BUtton> 
+    <input type="button" value="Take Test" onclick="check()" id="buton">
 
-</section>
-<section class="sect">  
-    <div id="quiz">
-    <form id="fomu">
+ 
+<div id="quiz">
+    <form name="quiz" id="fomu">
         <div class="question1">
             <p>Q1.What does HTML stand for?</p>
-            <p><input type="radio" name="HTML" id="html1" value="A"> A: Hypertexting Markup language</p>
-            <p><input type="radio" name="HTML" id="html1" value="B"> B: Hypertext Markingup language</p>
-            <p><input type="radio" name="HTML" id="html1" value="C"> c: Hypertext Markup programming language</p>
-            <p><input type="radio" name="HTML" id="html1" value="D"> D: Hypertext Markup language</p>
+            <p><input type="radio" name="HTML"  value="Hypertexting Markup language"> A. Hypertexting Markup language</p>
+            <p><input type="radio" name="HTML"  value="Hypertext Markingup language"> B. Hypertext Markingup language</p>
+            <p><input type="radio" name="HTML"  value="Hypertext Markup programming language"> c. Hypertext Markup programming language</p>
+            <p><input type="radio" name="HTML"  value="Hypertext Markup language"> D. Hypertext Markup language</p>
         </div>
         <div class="question1">
             <p>Q.2.Which of the following is correct about features of JavaScript?</p>
-            <p><input type="radio" name="jvas" id="jvas" value="A"> A: JavaScript is a lightweight, interpreted programming language.</p>
-            <p><input type="radio" name="jvas" id="jvas" value="B"> B: JavaScript is designed for creating network-centric applications.</p>
-            <p><input type="radio" name="jvas" id="jvas" value="C"> C:  JavaScript is complementary to and integrated with Java.</p>
-            <p><input type="radio" name="jvas" id="jvas" value="D"> D: All of the above.</p>
+            <p><input type="radio" name="jvas" value="JavaScript is a lightweight, interpreted programming language."> A: JavaScript is a lightweight, interpreted programming language.</p>
+            <p><input type="radio" name="jvas" value="JavaScript is designed for creating network-centric applications"> B: JavaScript is designed for creating network-centric applications.</p>
+            <p><input type="radio" name="jvas" id="jvas" value=" JavaScript is complementary to and integrated with Java."> C:  JavaScript is complementary to and integrated with Java.</p>
+            <p><input type="radio" name="jvas" id="jvas" value=" All of the above."> D: All of the above.</p>
             correctAns=D
         </div>
         <div class="question1">
             <p>Q.3.Which of the following type of variable is visible everywhere in your JavaScript code? </p>
-            <p><input type="radio" name="CODE" id="CODE" value="A"> A:global variable </p>
-            <p><input type="radio" name="CODE" id="CODE" value="B"> B: local variable</p>
-            <p><input type="radio" name="CODE" id="CODE" value="C"> C: Both of the above</p>
-            <p><input type="radio" name="CODE" id="CODE" value="D"> D: None of the above</p>
+            <p><input type="radio" name="CODE" id="CODE" value="global variable"> A:global variable </p>
+            <p><input type="radio" name="CODE" id="CODE" value="local variable"> B: local variable</p>
+            <p><input type="radio" name="CODE" id="CODE" value=" Both of the above"> C: Both of the above</p>
+            <p><input type="radio" name="CODE" id="CODE" value=" None of the above"> D: None of the above</p>
             correctAns=A
         </div>
         <div class="question1">
             <p>Q.4.  Which built-in method combines the text of two strings and returns a new string?</p>
-            <p><input type="radio" name="inbuilt" id="inbuilt" value="A"> A: append()</p>
-            <p><input type="radio" name="inbuilt" id="inbuilt" value="B"> B: concat()</p>
-            <p><input type="radio" name="inbuilt" id="inbuilt" value="C"> c:attach() </p>
+            <p><input type="radio" name="inbuilt" id="inbuilt" value=" append()"> A: append()</p>
+            <p><input type="radio" name="inbuilt" id="inbuilt" value="concat()"> B: concat()</p>
+            <p><input type="radio" name="inbuilt" id="inbuilt" value="attach() "> c:attach() </p>
             <p><input type="radio" name="inbuilt" id="inbuilt" value="D"> D: None of the above</p>
         </div>
         <div class="question1">
             <p>Q.5. Which built-in method returns the calling string value converted to upper case?</p>
-            <p><input type="radio" name="strin" id="strin" value="A"> A: toUpperCase()</p>
-            <p><input type="radio" name="strin" id="strin" value="B"> B: toUpper()</p>
-            <p><input type="radio" name="strin" id="strin" value="C"> c:changeCase(case) </p>
-            <p><input type="radio" name="strin" id="strin" value="D"> D: None of the above</p>
+            <p><input type="radio" name="strin" id="strin" value="toUpperCase()"> A: toUpperCase()</p>
+            <p><input type="radio" name="strin" id="strin" value="toUpper()"> B: toUpper()</p>
+            <p><input type="radio" name="strin" id="strin" value="changeCase(case)"> c:changeCase(case) </p>
+            <p><input type="radio" name="strin" id="strin" value="None of the above"> D: None of the above</p>
             correctAns=A
         </div>
         <div class="question1">
             <p>Q6. Which of the following function of Number object returns a string value version of<br> the current number in a format that may vary according to a browser's locale settings.?</p>
-            <p><input type="radio" name="funi" id="funi" value="A"> A: toExponential()</p>
-            <p><input type="radio" name="funi" id="funi" value="B"> B:toFixed()</p>
-            <p><input type="radio" name="funi" id="funi" value="C"> C.  toLocaleString()</p>
-            <p><input type="radio" name="funi" id="funi" value="D"> D:toString() </p>
+            <p><input type="radio" name="funi" id="funi" value="toExponential()"> A: toExponential()</p>
+            <p><input type="radio" name="funi" id="funi" value="toFixed()"> B:toFixed()</p>
+            <p><input type="radio" name="funi" id="funi" value=" toLocaleString()"> C.  toLocaleString()</p>
+            <p><input type="radio" name="funi" id="funi" value="toString() "> D:toString() </p>
             CorrectAns=C
         </div>
         <div class="question1">
             <p>Q.7.Which of the following function of String object returns the index within the<br>calling String object of the first occurrence of the specified value?</p>
-            <p><input type="radio" name="obj" id="obj" value="A"> A: substr()</p>
-            <p><input type="radio" name="obj" id="obj" value="B"> B: search()</p>
-            <p><input type="radio" name="obj" id="obj" value="C"> c:  lastIndexOf()</p>
-            <p><input type="radio" name="obj" id="obj" value="D"> D: indexOf()</p>
+            <p><input type="radio" name="obj" id="obj" value="substr()"> A: substr()</p>
+            <p><input type="radio" name="obj" id="obj" value="search()"> B: search()</p>
+            <p><input type="radio" name="obj" id="obj" value="lastIndexOf()"> c:  lastIndexOf()</p>
+            <p><input type="radio" name="obj" id="obj" value="indexOf()"> D: indexOf()</p>
             CorrectAns=D
             
         </div>
         <div class="question1">
             <p>Q.8. Which of the following function of String object creates a string to be displayed<br> as bold as if it were in a  tag?</p>
-            <p><input type="radio" name="bol" id="bol" value="A"> A: anchor()</p>
-            <p><input type="radio" name="bol" id="bol" value="B"> B: big()</p>
-            <p><input type="radio" name="bol" id="bol" value="C"> c:blink() </p>
-            <p><input type="radio" name="bol" id="bol" value="D"> D:bold() </p>
+            <p><input type="radio" name="bol" id="bol" value="anchor()"> A: anchor()</p>
+            <p><input type="radio" name="bol" id="bol" value="big()"> B: big()</p>
+            <p><input type="radio" name="bol" id="bol" value="blink()"> c:blink() </p>
+            <p><input type="radio" name="bol" id="bol" value="bold()"> D:bold() </p>
             correctAns=D
         </div>
         <div class="question1">
             <p>Q.9. Which of the following function of Array object returns a new array <br>comprised of this array joined with other array(s) and/or value(s)?</p>
-            <p><input type="radio" name="arr" id="arr" value="A"> A: concat()</p>
-            <p><input type="radio" name="arr" id="arr" value="B"> B:pop()</p>
-            <p><input type="radio" name="arr" id="arr" value="C"> c:push() </p>
-            <p><input type="radio" name="arr" id="arr" value="D"> D: some()</p>
+            <p><input type="radio" name="arr" id="arr" value="concat()"> A: concat()</p>
+            <p><input type="radio" name="arr" id="arr" value="pop()"> B:pop()</p>
+            <p><input type="radio" name="arr" id="arr" value="push()"> c:push() </p>
+            <p><input type="radio" name="arr" id="arr" value="some()"> D: some()</p>
             correctAns=A
         </div>
         <div class="question1">
             <p>Q.10.Which of the following function of Array object sorts the elements of an array?</p>
-            <p><input type="radio" name="shift" id="shift" value="A"> A: toSource()</p>
-            <p><input type="radio" name="shift" id="shift" value="B"> B: sort()</p>
-            <p><input type="radio" name="shift" id="shift" value="C"> c: toString()</p>
-            <p><input type="radio" name="shift" id="shift" value="D"> D: unshift()</p>
+            <p><input type="radio" name="shift" id="shift" value=" toSource()"> A: toSource()</p>
+            <p><input type="radio" name="shift" id="shift" value="sort()"> B: sort()</p>
+            <p><input type="radio" name="shift" id="shift" value="toString()"> c: toString()</p>
+            <p><input type="radio" name="shift" id="shift" value="unshift()"> D: unshift()</p>
             correctAns=B
         </div>
        
         
     </form>
-</section>
+</div>
     <button type="submit">Submit Answers</button>
   </div>
   <div class="bit">
       
   </div>
-
+ <script type="text/JavaScript" src="js/script.js"></script>
 </body>
 </html>
 
