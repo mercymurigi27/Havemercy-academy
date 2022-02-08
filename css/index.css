@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .head{
@@ -39,21 +39,25 @@ h2{
     height: 400px;
     background-image: url(/images/schlback.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .mission1, .mission2, .mission3{
     padding: 20px;
     font-weight: bold;
     color: black;
-    background-color:rgba(128, 128, 128, 0.4);
+    background-color:rgba(113, 113, 192, 0.5);
+    border: none;
+    border-radius: 20px;
 }
 
 
 
 #quiz{
-    background-color: grey;
+    background-color: peru;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 
     
@@ -61,8 +65,11 @@ h2{
 #fomu{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap:wrap;
+    
+  
+    
+    
 
 }
 .question1{
@@ -74,9 +81,9 @@ h2{
 
 
 }
-#submit{
+button{
     background-color: green;
-    height: 50px;
+    height: 40px;
     margin-left: 600px;
     color: whitesmoke;
 }
