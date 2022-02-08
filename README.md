@@ -1,5 +1,5 @@
-## HAVEMERCY-ACADEMY EXAM PORTAL
-## DESCRIPTION
+## Havemercy-academy
+## Description
 ### An online based academic portal where students take their exams. 
 The system marks the exams and allocates the scored grades for each student.
 it then grades the performance from highest to the lowest.
